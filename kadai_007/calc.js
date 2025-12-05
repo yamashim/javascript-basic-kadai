@@ -1,5 +1,5 @@
-//変数宣言:0~15までの値を出力する
-let num = Math.floor(Math.random() * 16)
+//変数宣言:1~15までの値を出力する
+let num = Math.floor(Math.random() * 15) + 1
 
 //if条件式：変数numの値によって出力結果を出し分ける。
 
@@ -18,4 +18,5 @@ else if (num % 5 === 0){
 //変数numが3と5の倍数以外である場合の処理
 else {
     console.log(num);
+
 }
