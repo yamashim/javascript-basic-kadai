@@ -7,9 +7,10 @@ const printToday = () => {
     //console.log(dateNow.toLocaleString());
 
     //年月日表示でコンソールへ出力する
-    console.log(dateNow.getFullYear() + "年" + dateNow.getMonth() + "月" + dateNow.getDate() + "日");
+    console.log(dateNow.getFullYear() + "年" + (dateNow.getMonth()+1) + "月" + dateNow.getDate() + "日");
 
 }
 
 //関数を呼び出す
 printToday();
+
